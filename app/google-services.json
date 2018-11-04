@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "500060793363",
+    "firebase_url": "https://quimicapilar-812e4.firebaseio.com",
+    "project_id": "quimicapilar-812e4",
+    "storage_bucket": "quimicapilar-812e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500060793363:android:5d68a0b28b829dc7",
+        "android_client_info": {
+          "package_name": "com.pilar.quimica.quimicapilar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500060793363-lal2hk2m9pt5kreo12phdfhpqg9kd014.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pilar.quimica.quimicapilar",
+            "certificate_hash": "4d34b915b8373c509878777454771cf2b68e7a09"
+          }
+        },
+        {
+          "client_id": "500060793363-spoao9uol5d7f9f6d6sh7g1kskjj0q13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQbu90YUsgbc6ys3dpgsu8z9FzqT8Kr70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500060793363-spoao9uol5d7f9f6d6sh7g1kskjj0q13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

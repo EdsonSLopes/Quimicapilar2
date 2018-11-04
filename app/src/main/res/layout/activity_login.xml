@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity"
+    android:background="#6f4ca0"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="-230dp"
+            android:src="@drawable/logoverticalbranco" />
+
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#ffff"/>
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha"
+        android:textColorHint="#ffff"
+        android:inputType="textPassword"/>
+
+
+
+
+
+        <TextView
+            android:id="@+id/tvAbreCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastra-se"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/tvRecSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recuperar Senha"
+            android:textColor="#ffff" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logar"
+        android:textColor="#6f4ca0"
+        android:background="#ffff"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"/>
+
+
+
+
+
+
+</LinearLayout>
