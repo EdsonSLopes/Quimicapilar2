@@ -11,12 +11,15 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.pilar.quimica.quimicapilar.DAO.ConfiguracaoFirebase;
 import com.pilar.quimica.quimicapilar.Entidades.Usuarios;
 import com.pilar.quimica.quimicapilar.Helper.Base64Custom;
@@ -31,7 +34,8 @@ public class CadastroActivity extends AppCompatActivity {
     private EditText edtCadConfirmaSenha;
     private Button btnCadSalvar;
     private Usuarios usuarios;
-    private FirebaseAuth autenticacao;
+    FirebaseAuth autenticacao;
+    DatabaseReference referenceFirebase;
 
 
     @Override
@@ -73,6 +77,7 @@ public class CadastroActivity extends AppCompatActivity {
     }
 
     private void cadastrarUsuario(){
+        FirebaseApp.initializeApp(CadastroActivity.this);
         autenticacao = ConfiguracaoFirebase.getFirebaseAutenticacao();
         autenticacao.createUserWithEmailAndPassword(
                 usuarios.getEmail(),

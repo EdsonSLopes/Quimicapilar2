@@ -38,7 +38,7 @@
         android:id="@+id/edtCadCnfirmaSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E-mail"
+        android:hint="Confirma senha"
         android:textColorHint="#ffff"
         android:inputType="textPassword"/>
 
@@ -50,7 +50,7 @@
         android:id="@+id/btnCadSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Logar"
+        android:text="Salvar"
         android:textColor="#6f4ca0"
         android:background="#ffff"
         android:layout_marginLeft="80dp"

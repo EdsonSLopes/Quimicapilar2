@@ -81,4 +81,9 @@ public class Usuarios {
     public void setCofirmaSenha(String cofirmaSenha) {
         CofirmaSenha = cofirmaSenha;
     }
+
+    @Override
+    public String toString() {
+        return Nome ;
+    }
 }

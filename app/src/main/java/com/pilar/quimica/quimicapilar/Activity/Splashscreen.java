@@ -10,6 +10,10 @@ import com.pilar.quimica.quimicapilar.R;
 
 public class Splashscreen extends AppCompatActivity {
 
+    // Instanciando variáveis
+    private int count=0;
+    private Boolean trocaActivity= false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
